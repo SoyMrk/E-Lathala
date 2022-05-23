@@ -25,10 +25,7 @@ class PostController extends Controller
 
     public function books(Request $request)
     {
-        //$posts = Post::latest()->with(['user','likes'])
-        //->where('post_type','book')
-        //->paginate(30);
-        //dd($posts);
+        
 
         $posts = Post::whereNotExists(
             function($query) {
@@ -37,6 +34,7 @@ class PostController extends Controller
                       ->whereNotNull('completed_at');
             }
         )
+        ->where('post_type','book')
         ->with(['user','likes'])
         ->paginate(30);
 
@@ -47,12 +45,17 @@ class PostController extends Controller
     }
 
     public function materials(Request $request)
-    {
-        $posts = Post::latest()->with(['user','likes'])
+    {        
+        $posts = Post::whereNotExists(
+            function($query) {
+                $query->from('transactions')
+                      ->whereColumn('posts.id','transactions.post_id')
+                      ->whereNotNull('completed_at');
+            }
+        )
         ->where('post_type','material')
+        ->with(['user','likes'])
         ->paginate(30);
-        //dd($posts);
-        
 
         return view('posts.materials.materials', [
             'posts' => $posts
