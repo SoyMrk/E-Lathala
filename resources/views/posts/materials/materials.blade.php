@@ -2,30 +2,26 @@
 
 @section('content')
 
-<body class="h-screen overflow-hidden flex items-center justify-center" style="background: #edf2f7;">
-    
-
 <div class="bg-gray-900">
     <header>
         <div class="container mx-auto px-6 py-3">
             <div class="flex items-center justify-between">
-                <div class="hidden w-full text-gray-600 md:flex md:items-center">
-                    <div class="w-full text-yellow-600 font-sans md:text-center text-3xl font-bold tracking-wider">
-                        <br> E-LATHALA MARKETPLACE
-                    </div>
+                <div class="w-full text-yellow-600 font-sans text-3xl font-bold tracking-wider">
+                    <br>
+                    E-LATHALA MARKETPLACE
                 </div>
             </div>
         </div>
     </header>
 
-    <main class="my-8">
+    <main class="">
         <div class="container mx-auto px-6">
             <h3 class="text-gray-400 text-2xl font-medium">E-Lathala Materials</h3>
             <span class="mt-3 text-sm text-gray-500">{{ $posts->count() }} {{ Str::plural('Product', $posts->count()) }}</span>
             <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
                 @foreach($posts as $post)
                 <div class="w-full bg-white max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
-                    <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('https://images.unsplash.com/photo-1606311698062-21c4f57cb27f?ixlib=rb-1.2.1&auto=format&fit=crop&w=689&q=80')">
+                    <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('https://i.pinimg.com/originals/52/59/40/5259408fc762956f635db147f759ad50.jpg')">
                     </div>
                     <div class="px-5 py-3">
                         <h3 class="text-black-700 uppercase font-semibold">{{ $post->title }}</h3> 
@@ -96,13 +92,11 @@
                 </div>
                 @endforeach
                 {{ $posts->links() }}
-
+                
             </div>
             <br>
         </div>
     </main>
-
 </div>
-</body>
 
 @endsection

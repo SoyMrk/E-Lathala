@@ -47,8 +47,8 @@
                 <br>
                 <div class="grid md:grid-cols-3 gap-6 lg:gap-12 text-center">
                     <div class="mb-12 md:mb-0">
-                        <h5 class="text-xl font-semibold mb-4">Maria Smantha</h5>
-                        <h6 class="font-semibold text-white-900 mb-4">Web Developer</h6>
+                        <h5 class="text-xl font-semibold mb-4">Jevah Rea Montas</h5>
+                        <h6 class="font-semibold text-blue-600 mb-4">BS Information Technology</h6>
                         <p class="mb-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" class="w-6 pr-2 inline-block" role="img"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -56,8 +56,7 @@
                                 d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
                             </path>
                             </svg>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
-                                tenetur quae quaerat ad velit ab hic tenetur.
+                                Thanks to this app I survived my final semester! I love the simplicity of the app and other sellers/buyers were also accomodating which is really nice.
                         </p>
                         <ul class="flex justify-center mb-0">
                             <li>
@@ -96,15 +95,15 @@
                         </ul>
                     </div>
                         <div class="mb-12 md:mb-0">
-                            <h5 class="text-xl font-semibold mb-4">Lisa Cudrow</h5>
-                            <h6 class="font-semibold text-blue-600 mb-4">Graphic Designer</h6>
+                            <h5 class="text-xl font-semibold mb-4">Leomil Arvi Relorcasa</h5>
+                            <h6 class="font-semibold text-blue-600 mb-4">BS Information Technology Student</h6>
                                 <p class="mb-4">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <path fill="currentColor"
                                             d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">                 
                                         </path>
-                                    </svg> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
-                                            laboriosam, nisi ut aliquid commodi.
+                                    </svg> There are lots of affordable books and materials. I love reading and this app really helps me find interesting and affordable ones. 
+                                    Negotiation with other students or sellers was also helpful for me.
                                 </p>
                             <ul class="flex justify-center mb-0">
                             <li>
@@ -145,15 +144,15 @@
                         </ul>
                     </div>
                     <div class="mb-0">
-                        <h5 class="text-xl font-semibold mb-4">John Smith</h5>
-                        <h6 class="font-semibold text-blue-600 mb-4">Marketing Specialist</h6>
+                        <h5 class="text-xl font-semibold mb-4">Princess Joy Borlagdan</h5>
+                        <h6 class="font-semibold text-blue-600 mb-4">BS Information Technology Student</h6>
                         <p class="mb-4">
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path fill="currentColor"
                                     d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
                                 </path>
-                            </svg>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                praesentium voluptatum deleniti atque corrupti.
+                            </svg>It was easy to navigate. I met lot of other students from Bicol university that shows the same interest with books and also studying. 
+                            I was able to purchase a good material which I needed for my final project this year.
                         </p>
                         <ul class="flex justify-center mb-0">
                         <li>

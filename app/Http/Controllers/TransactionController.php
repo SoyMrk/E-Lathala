@@ -130,8 +130,4 @@ class TransactionController extends Controller
 
     }
 
-    public function tranhistory()
-    {
-        return view('transactions.transhistory'); 
-    }
 }

@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>posty</title>
+    <title>E-Lathala</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     
-    <body class="bg-gray-200">
-        <nav class="p-2 bg-white flex justify-between mb-3 sticky top-0 z-50">
+    <body class="bg-yellow-200">
+        <nav class="p-2 bg-yellow-200 flex justify-between mb-3 sticky top-0 z-50">
             <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
                 <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="{{ route('home') }}">
                     <img src="{{ asset('images/logo1.png') }}" width="200" alt="siteName"></a>
@@ -66,7 +66,7 @@
             </ul>
 
             <!-- search bar -->
-            <div class="container mx-10 flex flex-wrap p-2 flex-col md:flex-row items-center xl:w-70">
+            <div class="container mx-10 flex flex-wrap p-2 flex-col md:flex-row items-center xl:w-80">
                 <input class="block px-3 py-1.5 text-sm text-yellow-900 hover:text-yellow-900 font-semibold
                             border hover:border-yellow-700 rounded" placeholder="Search">
                     <button class="inline-block px-3 py-1.5 text-sm font-semibold leading-none bg-yellow-700 hover:bg-yellow-900 text-white rounded">
@@ -79,12 +79,13 @@
             <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-4 lg:mx-8">
                 @auth  
                     <li>
-                        <p class="nav-link block rounded-md font-medium text-sm leading-tight uppercase border-x-0 border-t-0 
-                        border-b-2 border-transparent px-3 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent active" disabled>{{ auth()->user()->name }}</p>
+                        <a class="nav-link block rounded-md font-medium text-lg font-bold leading-tight uppercase border-x-0 border-t-0 
+                        border-b-2 border-transparent px-3 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent active" 
+                        href="{{ route('users.profile',auth()->user()) }}" disabled>{{ auth()->user()->username }}</a>
                     </li>
                 
                     <li>
-                        <a class="navbar-brand" href="{{ route('users.profile',auth()->user()) }}"><img src="C:\Users\cessy\Downloads\MARK.png" class="logo"></a>
+                        <a class="navbar-brand" href="{{ route('users.profile',auth()->user()) }}"><img src="/images/userlogo.png" class="logo"></a>
                     </li>     
                     <li>
                         <div @click.away="open = false" class="relative" x-data="{ open: false }">
@@ -121,7 +122,7 @@
                                         href="{{ route('transactions.bought',auth()->user()->name) }}">History - Items Bought</a>
                                     </div>
                                         
-                                    <form action="{{ route('logout') }}" class="block rounded-md px-4 py-2 mt-2 text-xs font-semibold bg-transparent hover:bg-red-300 md:mt-0" method="post">
+                                    <form action="{{ route('logout') }}" class="block rounded-md px-4 py-2 mt-2 text-xs font-semibold bg-transparent hover:bg-yellow-700 md:mt-0" method="post">
                                         @csrf
                                         <button type="submit" class="w-full text-xs font-semibold text-left">Logout</button>
                                     </form>
@@ -145,13 +146,13 @@
         @yield('content')
     </body>
     
-    <footer class="text-gray-600 bg-gray-100 body-font">
-        <div class="container px-2 py-2 flex items-center sm:flex-row flex-col">
+    <footer class="text-black-900 bg-yellow-200 body-font">
+        <div class="w-full px-2 py-2 flex items-justify sm:flex-row flex-col">
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
+                <div class="w-full mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
                     <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="{{ route('home') }}">
                         <img src="{{ asset('images/logo1.png') }}" width="200" alt="siteName"></a>
-                        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">2022 E-Team - Bicol University College of Science</p>
+                        <p class="text-sm text-gray-900 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 pl-20 sm:mt-0 mt-4">2022 E-Team - Bicol University College of Science</p>
                         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                             <a href="#" class="text-gray-500 hover:text-gray-600">
                                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-5 h-5">

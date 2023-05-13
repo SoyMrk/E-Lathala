@@ -1,21 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="dark:bg-gray-900">
-<div class="py-10">
+<section>
+<div class="py-20 bg-gray-900 h-screen ">
     <div class="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
         <div class="hidden lg:block lg:w-full bg-cover" 
-            style="background-image:url('https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80')">
+            style="background-image:url('https://th.bing.com/th/id/R.edd8346835dd1f3d7dade0708a290332?rik=SJaPtLbVFgXzqw&riu=http%3a%2f%2fcultura.castillalamancha.es%2fsites%2fcultura.castillalamancha.es%2ffiles%2fstyles%2fblog_800x600%2fpublic%2f2019-02%2fp1d3b5i9d5hpb1c2j1na914t61mrg4.jpg%3fitok%3dRKj6SPxb&ehk=zi62ZAJ%2fv6JqQBC%2fI27AuBnD36m3HXXDNa8YavRYC3M%3d&risl=&pid=ImgRaw&r=0')">
         </div>
-        <div class="w-full p-6 lg:w-//16">
+        <div class="w-full p-4 lg:w-//16">
             <h2 class="text-2xl font-semibold text-gray-700 text-center"><b>Welcome to E-Lathala</b></h2>
             <div class="mt-4 flex items-center justify-between">
                 <span class="border-b w-1/5 lg:w-1/4"></span>
                 <a href="#" class="text-xs text-center text-gray-500 uppercase">Create New Account</a>
                 <span class="border-b w-1/5 lg:w-1/4"></span>
             </div>
-            <div class="w-full p-4 lg:w-//16">
-                <div class="lg:max-w-md p-6 bg-gray-100 rounded-lg">
+            <div class="w-full p-2 lg:w-//16">
+                <div class="lg:max-w-md p-4 bg-gray-100 rounded-lg">
                     <form action="{{ route('register') }}" method="post">    
                         @csrf
                         <div class="mt-2">

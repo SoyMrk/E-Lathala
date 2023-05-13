@@ -1,11 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="bg-white dark:bg-gray-900">
-<div class="py-10">
+<div class="py-40 bg-gray-900 h-screen">
   <div class="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
         <div class="hidden lg:block lg:w-full bg-cover" 
-            style="background-image:url('https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80')">
+            style="background-image:url('https://s2982.pcdn.co/wp-content/uploads/2021/07/reading-on-floor-of-bookstore.jpg.optimal.jpg')">
         </div>
         <div class="w-full p-6 lg:w-//16">
             <h2 class="text-2xl font-semibold text-gray-700 text-center">E-Lathala</h2>
@@ -74,5 +73,5 @@
         </div>
     </div>
 </div>
-</section>
+
 @endsection
